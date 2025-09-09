@@ -9,13 +9,17 @@ The attack exploited an unconfigured firewall. Mitigation included blocking ICMP
 
 ## **2. NIST CSF Analysis**
 
-| Function        | Description                                           | Analyst Actions                                                                                                                                                               |
-| --------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **🔍 Identify** | Recognize critical assets, vulnerabilities, and risks | - Conduct regular network audits<br>- Identify misconfigured firewalls<br>- Document gaps in access controls                                                                  |
-| **🛡️ Protect**  | Implement safeguards to limit impact                  | - Apply firewall rules and ICMP rate limiting<br>- Enforce access controls and IP verification<br>- Train staff on secure configurations<br>- Maintain backups and redundancy |
-| **👁️ Detect**   | Discover incidents quickly                            | - Deploy network monitoring tools<br>- Configure IDS/IPS alerts<br>- Analyze logs for anomalies                                                                               |
-| **⚡ Respond**  | Contain and mitigate incidents                        | - Block malicious traffic<br>- Restore critical services first<br>- Conduct post-incident analysis<br>- Update incident response playbooks                                    |
-| **🔄 Recover**  | Restore systems and implement improvements            | - Return network systems to normal operation<br>- Restore affected data/services<br>- Implement stronger controls<br>- Communicate findings to stakeholders                   |
+| Function        | Description                                           | Analyst Actions                                                                                                                                                                                          |
+| --------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **🔍 Identify** | Recognize critical assets, vulnerabilities, and risks | - Map **critical assets** (servers, applications, network devices) that could be affected.<br>- Identify misconfigured firewalls<br>- - Document gaps in **access controls** and firewall configurations |
+| **🛡️ Protect**  | Implement safeguards to limit impact                  | - Apply **firewall rules** and ICMP rate limiting to prevent overwhelming traffic.                                                                                                                       |
+
+- Enforce **access control policies** and verify source IPs to prevent spoofing.
+- Train staff on **secure network configurations** and incident recognition.
+- Maintain **backup and redundancy systems** to ensure continuity. |
+  | **👁️ Detect** | Discover incidents quickly | - Deploy network monitoring tools<br>- Configure IDS/IPS alerts<br>- Analyze logs for anomalies |
+  | **⚡ Respond** | Contain and mitigate incidents | - Block malicious traffic<br>- Restore critical services first<br>- Conduct post-incident analysis<br>- Update incident response playbooks |
+  | **🔄 Recover** | Restore systems and implement improvements | - Return network systems to normal operation<br>- Implement improvements such as **automated traffic filtering**, better firewall configurations, and continuous monitoring.<br>- Share findings with **stakeholders** to improve transparency and security posture. |
 
 ---
 
