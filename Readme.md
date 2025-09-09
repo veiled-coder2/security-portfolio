@@ -1,6 +1,24 @@
 # 🛡️ Security Portfolio
 
-Welcome to my **Security Portfolio**, a collection of hands-on projects demonstrating my skills in **Security Operations (SOC)** and **Application Security (AppSec)**. This repository showcases practical experience in network monitoring, incident response, vulnerability assessment, secure coding practices, and overall cybersecurity best practices.
+# 🔐 Proficient Security Portfolio
+
+> **✨ Still finding my niche, but on a journey to discover the most fulfilling path. ✨**
+
+Welcome to my **Security Portfolio**, a collection of hands-on projects demonstrating my skills in:
+
+- **Networking** 🌐
+- **Application Security (AppSec)** 💻
+- **Security Operations (SOC)** 🛡️
+
+This repository showcases practical experience in:
+
+- Network monitoring 📡
+- Incident response 🚨
+- Vulnerability assessment 🔎
+- Secure coding practices 🖊️
+- Overall cybersecurity best practices ✅
+
+Each folder contains projects, exercises, and labs that highlight my applied skills and understanding of real-world cybersecurity scenarios.
 
 ---
 
