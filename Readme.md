@@ -24,6 +24,7 @@ Each folder contains projects, exercises, and labs that highlight my applied ski
 
 ## 📚 Table of Contents
 
+- [Networking Projects]()
 - [SOC Projects](https://github.com/veiled-coder2/security-portfolio/tree/master/SOC)
 - [AppSec Projects](#appsec-projects)
 - [🛠️ Tools & Scripts](#tools--scripts)
