@@ -7,6 +7,27 @@ The attack exploited an unconfigured firewall. Mitigation included blocking ICMP
 
 ---
 
+#### – Incident Impact
+
+🛡️ **Type of Attack:** DDoS (Distributed Denial of Service) – ICMP flood
+
+💻 **Extent of Incident:**
+
+- Internal network services stopped responding for ~2 hours
+- Impacted devices/systems:
+  - All internal servers connected to the compromised subnet
+  - Network devices (switches/routers) handling the affected VLANs
+  - Critical services temporarily offline, including web applications and internal tools
+
+📌 **Observations:**
+
+- Attack exploited an unconfigured firewall, allowing high-volume ICMP traffic
+- Some legitimate traffic was delayed or dropped during the attack
+- No data exfiltration or malware detected
+
+✅ **Summary:**  
+The DDoS attack temporarily disrupted network availability, highlighting gaps in firewall configuration and monitoring.
+
 ## **2. NIST CSF Analysis**
 
 | Function        | Description                                           | Analyst Actions                                                                                                                                                                                                                                                                                                              |
