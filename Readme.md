@@ -6,7 +6,7 @@ Welcome to my **Security Portfolio**, a collection of hands-on projects demonstr
 
 ## 📚 Table of Contents
 
-- [SOC Projects](#soc-projects)
+- [SOC Projects](https://github.com/veiled-coder2/security-portfolio/tree/master/SOC)
 - [AppSec Projects](#appsec-projects)
 - [🛠️ Tools & Scripts](#tools--scripts)
 - [📄 Reports & Documentation](#reports--documentation)
