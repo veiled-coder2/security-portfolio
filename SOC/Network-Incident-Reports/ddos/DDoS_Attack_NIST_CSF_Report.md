@@ -17,8 +17,6 @@ The attack exploited an unconfigured firewall. Mitigation included blocking ICMP
 | **⚡ Respond**  | Contain and mitigate incidents                        | - Block malicious traffic<br>- Restore critical services first<br>- Conduct post-incident analysis<br>- Update incident response playbooks                                                                                                                                                                                   |
 | **🔄 Recover**  | Restore systems and implement improvements            | - Return network systems to normal operation<br>- Implement improvements such as **automated traffic filtering**, better firewall configurations, and continuous monitoring.<br>- Share findings with **stakeholders** to improve transparency and security posture.                                                         |
 
----
-
 ## **3. Reflections / Notes**
 
 - The incident reinforced the importance of **proactive network monitoring**.
