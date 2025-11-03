@@ -1,44 +1,64 @@
-# 🖥️ Security Operations (SOC) Projects
+# ☁️ Cloud Projects & Experiments  
 
-Welcome to the **SOC (Security Operations Center) section** of my Security Portfolio.  
-This folder contains hands-on projects, incident reports, and exercises demonstrating practical skills in **network monitoring, threat analysis, incident response, and cloud security operations**.
+![Made with Love](https://img.shields.io/badge/Made%20with%20❤️%20by-Rahmat%20Abdulfattah-blueviolet?style=flat-square)
+![Oracle Cloud](https://img.shields.io/badge/☁️-Oracle%20Cloud-orange?style=flat-square)
+![DevSecOps](https://img.shields.io/badge/🔐-DevSecOps%20Journey-brightgreen?style=flat-square)
+![AppSec](https://img.shields.io/badge/Application%20Security-Active-blue?style=flat-square)
+![Learning in Public](https://img.shields.io/badge/Learning%20in%20Public-💡-yellow?style=flat-square)
 
----
+Hey there! 👋 Welcome to my **Cloud Corner** — a collection of everything I’m learning, building, and securing in the world of **Cloud Computing** and **Application Security**.  
 
-## 📂 Folder Overview
-
-- **Network-Incident-Reports/**  
-  Real-world and simulated incident reports analyzing network security events, including DDoS attacks and misconfigurations.
-
-- **SIEM-Playbooks/**  
-  Step-by-step guides and templates for monitoring, detecting, and responding to security incidents using SIEM tools.
-
-- **Threat-Analysis/**  
-  Identification of vulnerabilities and potential threats in network infrastructure, including risk assessments and mitigation strategies.
-
-- **AWS-Security/**  
-  Cloud-focused SOC exercises and projects on AWS, including IAM policies, logging, monitoring, and alert configurations.
-
-- **Tools/**  
-  Useful scripts, configurations, and automation snippets supporting SOC activities.
+Whether it’s DevSecOps pipelines, Oracle Cloud setups, or automation scripts — this folder is my evolving playground for all things **cloud + security**. 🛡️⚙️  
 
 ---
 
-## 🔑 Key Skills Demonstrated
+## 🌍 What You’ll Find Here  
 
-- Network monitoring and anomaly detection
-- Incident response and documentation
-- Vulnerability assessment and risk analysis
-- Security policies and best practices
-- Cloud monitoring and security operations (AWS)
-
----
-
-## 📝 Notes
-
-- Each folder contains a `README.md` describing the individual projects.
-- This section is continuously updated as I complete new SOC exercises and labs.
+| Category | Description |  
+|-----------|--------------|  
+| ☁️ **Cloud Fundamentals** | Notes, demos, and hands-on experiments from my Oracle & AWS learning journey. |  
+| 🔐 **Cloud AppSec** | Projects focused on securing APIs, workloads, and CI/CD pipelines. |  
+| 🧩 **API Security** | Everything about securing, testing, and authenticating APIs. |  
+| ⚙️ **Automation & DevSecOps** | Scripts, Terraform templates, and workflow automations. |  
+| 📊 **Monitoring & Logging** | Cloud Guard dashboards, Splunk configs, and observability snippets. |  
 
 ---
 
-_This folder reflects practical experience and knowledge applicable to a Security Operations Analyst role._
+## 🚀 Featured Projects  
+
+- 🧩 **[Full DevSecOps CI/CD Security Pipeline](#)** — Secure containerized deployment using Snyk, Trivy, and ZAP.  
+- 🔧 **[Cloud Guard Auto-Remediation](#)** — Detects misconfigurations and fixes them using Functions.  
+- 🧠 **[Compliance-as-Code Platform](#)** — Terraform + OPA enforcing CIS OCI benchmarks.  
+- 🔍 **[Threat Detection Dashboard](#)** — Real-time alerts and visualizations powered by Splunk.  
+
+*(More projects coming soon — this repo grows as I grow 🌱)*  
+
+---
+
+## 💡 Tools & Technologies  
+
+<div align="center">  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="40"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="40"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="40"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/>  
+</div>  
+
+---
+
+## 🌈 About Me  
+
+👩🏽‍💻 I’m **Rahmat Abdulfattah**, exploring how modern apps are built, deployed, and secured in the cloud.  
+I’m passionate about **Cloud Application Security**, **DevSecOps**, and **automation that protects systems before they ever go live.**  
+
+💬 Let’s connect:  
+[LinkedIn](https://linkedin.com/in/rahmatabdulfattah) • [GitHub](https://github.com/veiled-coder2)  
+
+---
+
+## ✨ Quote I Live By  
+
+> “You don’t have to be fast; you just have to keep going.” 🌱  
