@@ -24,7 +24,8 @@ I believe in learning publicly, documenting challenges, and improving through re
 ## 🛠️ Tools & Technologies  
 
 <div align="center">  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="40"/>  
+  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="40"/>  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="40"/>  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/>  
@@ -35,21 +36,6 @@ I believe in learning publicly, documenting challenges, and improving through re
 -
 📌 This is a growing portfolio reflecting my transition into security-focused engineering.
 
-📫 Let’s connect:
-
-
-Hi, I’m **Rahmat Abdulfattah** 👩🏽‍💻  
-A Software Engineer with a background in Frontend Development, currently expanding into **Cloud Security, Application Security, and DevSecOps practices**.
-
-
-
-- 🔎 Vulnerability assessment practice (Greenbone / Kali Linux)
-- ☁️ Cloud security fundamentals (AWS)
-- 🔐 API security concepts (authentication, authorization, rate limiting)
-- ⚙️ DevSecOps basics and secure deployment workflows
-- 🧠 Troubleshooting infrastructure and system-level issues
-
-I believe in learning publicly, documenting challenges, and improving through real experimentation.
 
 
 ## 📬 Connect With Me  
