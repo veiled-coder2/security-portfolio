@@ -1,64 +1,55 @@
 # ☁️ Cloud Projects & Experiments  
 
-![Made with Love](https://img.shields.io/badge/Made%20with%20❤️%20by-Rahmat%20Abdulfattah-blueviolet?style=flat-square)
-![Oracle Cloud](https://img.shields.io/badge/☁️-Oracle%20Cloud-orange?style=flat-square)
-![DevSecOps](https://img.shields.io/badge/🔐-DevSecOps%20Journey-brightgreen?style=flat-square)
-![AppSec](https://img.shields.io/badge/Application%20Security-Active-blue?style=flat-square)
 ![Learning in Public](https://img.shields.io/badge/Learning%20in%20Public-💡-yellow?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-Active-orange?style=flat-square)
+![Cloud Journey](https://img.shields.io/badge/Cloud-Journey-blue?style=flat-square)
 
-Hey there! 👋 Welcome to my **Cloud Corner** — a collection of everything I’m learning, building, and securing in the world of **Cloud Computing** and **Application Security**.  
+Hey there 👋  
 
-Whether it’s DevSecOps pipelines, Oracle Cloud setups, or automation scripts — this folder is my evolving playground for all things **cloud + security**. 🛡️⚙️  
+Welcome to my **Cloud Learning Lab** — a growing collection of experiments, notes, and hands-on projects as I transition deeper into **Cloud Computing and Application Security**.
 
----
-
-## 🌍 What You’ll Find Here  
-
-| Category | Description |  
-|-----------|--------------|  
-| ☁️ **Cloud Fundamentals** | Notes, demos, and hands-on experiments from my Oracle & AWS learning journey. |  
-| 🔐 **Cloud AppSec** | Projects focused on securing APIs, workloads, and CI/CD pipelines. |  
-| 🧩 **API Security** | Everything about securing, testing, and authenticating APIs. |  
-| ⚙️ **Automation & DevSecOps** | Scripts, Terraform templates, and workflow automations. |  
-| 📊 **Monitoring & Logging** | Cloud Guard dashboards, Splunk configs, and observability snippets. |  
+This repository reflects what I’m actively building and learning — especially around AWS infrastructure, secure deployments, and cloud fundamentals.
 
 ---
 
-## 🚀 Featured Projects  
+## 🌱 What This Repo Represents
 
-- 🧩 **[Full DevSecOps CI/CD Security Pipeline](#)** — Secure containerized deployment using Snyk, Trivy, and ZAP.  
-- 🔧 **[Cloud Guard Auto-Remediation](#)** — Detects misconfigurations and fixes them using Functions.  
-- 🧠 **[Compliance-as-Code Platform](#)** — Terraform + OPA enforcing CIS OCI benchmarks.  
-- 🔍 **[Threat Detection Dashboard](#)** — Real-time alerts and visualizations powered by Splunk.  
+- ☁️ My hands-on AWS practice (EC2, IAM, security groups, deployments)
+- 🔐 My growing interest in cloud security and DevSecOps
+- 🧠 Documented experiments and lessons learned
+- 📘 Notes from real implementation challenges
 
-*(More projects coming soon — this repo grows as I grow 🌱)*  
+This is not a finished portfolio of advanced systems — it’s a transparent record of my progress and practical exploration.
 
 ---
 
-## 💡 Tools & Technologies  
+## 🚀 Current Projects
+
+- ☁️ **AWS Deployment Project**  
+  Deployed and configured a cloud-based application using EC2, managed Linux server access, and configured security groups.
+
+*(More projects will be added as I continue building and experimenting 🌱)*
+
+---
+
+## 🛠️ Tools & Technologies  
 
 <div align="center">  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="40"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="40"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="40"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/>  
+<img src="https://cdn.simpleicons.org/amazonaws/FF9900" width="40"/>  
+<img src="https://cdn.simpleicons.org/linux" width="40"/>  
+<img src="https://cdn.simpleicons.org/git" width="40"/>  
+<img src="https://cdn.simpleicons.org/docker" width="40"/>  
+<img src="https://cdn.simpleicons.org/javascript" width="40"/>  
 </div>  
 
 ---
 
-## 🌈 About Me  
+## 👩🏽‍💻 About Me  
 
-👩🏽‍💻 I’m **Rahmat Abdulfattah**, exploring how modern apps are built, deployed, and secured in the cloud.  
-I’m passionate about **Cloud Application Security**, **DevSecOps**, and **automation that protects systems before they ever go live.**  
+I’m **Rahmat Abdulfattah**, a Software Engineer with a frontend background, currently expanding into cloud infrastructure and security-focused engineering.
 
-💬 Let’s connect:  
-[LinkedIn](https://linkedin.com/in/rahmatabdulfattah) • [GitHub](https://github.com/veiled-coder2)  
+I believe in learning by building, documenting honestly, and improving consistently.
 
 ---
 
-## ✨ Quote I Live By  
-
-> “You don’t have to be fast; you just have to keep going.” 🌱  
+> “You don’t have to be fast; you just have to keep going.” 🌱
