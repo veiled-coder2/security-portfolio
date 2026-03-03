@@ -35,7 +35,7 @@ This is not a finished portfolio of advanced systems — it’s a transparent re
 ## 🛠️ Tools & Technologies  
 
 <div align="center">  
-<img src="https://cdn.simpleicons.org/amazonaws/FF9900" width="40"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40"/> 
 <img src="https://cdn.simpleicons.org/linux" width="40"/>  
 <img src="https://cdn.simpleicons.org/git" width="40"/>  
 <img src="https://cdn.simpleicons.org/docker" width="40"/>   
