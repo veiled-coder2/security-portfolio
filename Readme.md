@@ -11,17 +11,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/>  
 </div>  
-
----
-
-## 👩🏽‍�
-
----
-# 🔐 Cloud & Application Security Portfolio
-
-✨ Buildinby doing* — and this portfolio is living proof of that. 
-
----
+-
 # 🔐 Cloud & Application Security Portfolio
 
 ✨ Building secure systems — one layer at a time. ✨  
@@ -46,17 +36,12 @@ I believe in learning publicly, documenting challenges, and improving through re
 📌 This is a growing portfolio reflecting my transition into security-focused engineering.
 
 📫 Let’s connect:
-- 💼 LinkedIn
-- 🌐 GitHub
-- ✉️ abdulfattahrahmat@gmail.com
-- g secure systems — one layer at a time. ✨  
+
 
 Hi, I’m **Rahmat Abdulfattah** 👩🏽‍💻  
 A Software Engineer with a background in Frontend Development, currently expanding into **Cloud Security, Application Security, and DevSecOps practices**.
 
-After working on responsive web applications and API integrations, I developed a strong interest in understanding not just how systems are built — but how they are secured, monitored, and maintained.
 
-This repository documents my **hands-on labs, experiments, and security learning journey**, including:
 
 - 🔎 Vulnerability assessment practice (Greenbone / Kali Linux)
 - ☁️ Cloud security fundamentals (AWS)
@@ -66,15 +51,7 @@ This repository documents my **hands-on labs, experiments, and security learning
 
 I believe in learning publicly, documenting challenges, and improving through real experimentation.
 
----
 
-📌 This is a growing portfolio reflecting my transition into security-focused engineering.
-
-📫 Let’s connect:
-- 💼 LinkedIn
-- 🌐 GitHub
-- ✉️ abdulfattahrahmat@gmail.com
-- 
 ## 📬 Connect With Me  
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/rahmat-abdulfattah-2322531ab/)  
