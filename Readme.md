@@ -5,7 +5,7 @@
 ✨ Building secure systems — one layer at a time. ✨  
 
 Hi, I’m **Rahmat Abdulfattah** 👩🏽‍💻  
-A Software Engineer with a background in Frontend Development, currently expanding into **Cloud Security, Application Security, and DevSecOps practices**.
+A Software Engineer with a background in Frontend Development, currently expanding into **Cloud Security and DevSecOps practices**.
 
 After working on responsive web applications and API integrations, I developed a strong interest in 🌱  understanding not just how systems are built — but how they are secured, monitored, and maintained.
 
