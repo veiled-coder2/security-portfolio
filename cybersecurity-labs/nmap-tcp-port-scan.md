@@ -1,11 +1,9 @@
-Here's a more polished `README.md` using GitHub-friendly emojis/icons.
 
-````markdown
+
 # 🔎 Nmap TCP Port Scan Lab
 
 > A hands-on cybersecurity lab demonstrating TCP port scanning, service detection, and operating system fingerprinting using Nmap.
 
----
 
 # 🎯 Objective
 
@@ -80,7 +78,7 @@ Expected output:
 Example:
 
 ```text
-192.168.56.101
+10.0.2.15
 ```
 
 ---
@@ -90,7 +88,7 @@ Example:
 ## 1️⃣ TCP Connect Scan
 
 ```bash
-nmap -sT <TARGET_IP>
+nmap -v -sT 10.0.2.15
 ```
 
 **Purpose**
@@ -103,20 +101,20 @@ nmap -sT <TARGET_IP>
 ## 2️⃣ TCP SYN Scan
 
 ```bash
-sudo nmap -sS <TARGET_IP>
+sudo nmap -sS 10.0.2.15
 ```
 
 **Purpose**
 
 - Uses SYN packets.
-- Faster and stealthier than a TCP Connect Scan.
+- Faster and stealthier than a TCP Connect Scan as it doesnt complete the three-way handshake.
 
 ---
 
 ## 3️⃣ Service Detection
 
 ```bash
-sudo nmap -sV <TARGET_IP>
+sudo nmap -sV 10.0.2.15
 ```
 
 **Purpose**
@@ -128,7 +126,7 @@ sudo nmap -sV <TARGET_IP>
 ## 4️⃣ OS Detection
 
 ```bash
-sudo nmap -A <TARGET_IP>
+sudo nmap -A 10.0.2.15
 ```
 
 **Purpose**
@@ -173,41 +171,18 @@ Successfully identified the following services:
 
 ---
 
-# 🖼️ Screenshots
-
-Screenshots for each step are located in the **`screenshots/`** folder.
-
-Suggested filenames:
-
-- 📷 target-services-running.png
-- 📷 localhost-scan.png
-- 📷 tcp-connect-scan.png
-- 📷 tcp-syn-scan.png
-- 📷 service-detection.png
-- 📷 os-detection.png
-- 📷 full-port-scan.png
-
----
 
 # 🎥 Video Demonstration
 
-A screen recording demonstrating the exercise is available in the **`video/`** folder.
-
-```
-video/
-└── demo.mp4
-```
-
-> **Note:** If the recording exceeds GitHub's file size limit, upload it to YouTube (Unlisted) or Google Drive and include the link here.
-
----
-
-
----
+A screen recording demonstrating the exercise is available **[HERE](https://youtu.be/Md9sCUgyn1E)**.
 
 
 
-⭐ *This lab was completed as part of my hands-on cybersecurity learning journey and demonstrates practical experience with network reconnaissance and TCP port scanning.*
-````
+https://github.com/user-attachments/assets/26618af8-a857-4f57-8ef7-199b70ebc17a
+
+
+
+⭐ **This lab was completed as part of my hands-on cybersecurity learning journey and demonstrates practical experience with network reconnaissance and TCP port scanning.**
+
 
 
