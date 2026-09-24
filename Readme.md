@@ -1,6 +1,6 @@
 
 
-# 🔐 Cloud & Application Security Portfolio
+# 🔐 Cloud Security Portfolio
 
 ✨ Building secure systems — one layer at a time. ✨  
 
