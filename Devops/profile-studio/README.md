@@ -74,10 +74,7 @@ http://localhost:3000
 ```
 
 📸 **Screenshot 1: Application running locally**
-
-![Local application screenshot](screenshots/local-app.png)
-
-*Replace this placeholder with a screenshot showing Profile Studio running in the browser.*
+<img width="1346" height="668" alt="Screenshot 2026-11-16 162649" src="https://github.com/user-attachments/assets/b0b5fd0f-fc55-4980-adf8-e7d4b2825a05" />
 
 ## 2️⃣ Creating the Dockerfile
 
@@ -120,10 +117,8 @@ This takes advantage of Docker layer caching.
 If application source code changes but the package files remain unchanged, Docker can reuse the cached dependency installation layer instead of installing the dependencies again.
 
 📸 **Screenshot 2: Dockerfile**
+<img width="461" height="347" alt="dockerfile" src="https://github.com/user-attachments/assets/6c4eecf7-3aa8-44a0-a186-a085c66e70fa" />
 
-![Dockerfile screenshot](screenshots/dockerfile.png)
-
-*Replace with a screenshot of your Dockerfile in VS Code.*
 
 ## 3️⃣ Creating the .dockerignore File
 
@@ -141,9 +136,9 @@ This helps reduce the build context and prevents local dependencies, environment
 
 📸 **Screenshot 3: .dockerignore**
 
-![Dockerignore screenshot](screenshots/dockerignore.png)
+<img width="431" height="212" alt="dockerignore" src="https://github.com/user-attachments/assets/7a3b96f1-d6be-44fa-8416-8a20962aafb6" />
 
-*Replace with a screenshot of your .dockerignore file.*
+
 
 ## 4️⃣ Configuring Docker Compose
 
@@ -211,9 +206,8 @@ Docker Compose's internal DNS allows the backend container to locate the MongoDB
 
 📸 **Screenshot 4: Docker Compose configuration**
 
-![Docker Compose screenshot](screenshots/docker-compose.png)
+<img width="654" height="467" alt="dockercompose" src="https://github.com/user-attachments/assets/efc405df-3a0e-4cb5-bc2b-62c4adc76b79" />
 
-*Replace with a screenshot of your docker-compose.yml file.*
 
 ## 5️⃣ Building and Running the Containers
 
@@ -247,11 +241,7 @@ http://localhost:3000
 
 The browser still uses the same host address, but the backend is now running inside its Docker container and communicating with MongoDB over the Compose network.
 
-📸 **Screenshot 6: Application running with Docker Compose**
 
-![Containerised application screenshot](screenshots/containerised-app.png)
-
-*Replace with a screenshot showing Profile Studio running successfully.*
 
 ## 7️⃣ 💾 Demonstrating Persistent Storage
 
@@ -293,19 +283,17 @@ Since the MongoDB volume was mounted at `/data/db`, the database files remained 
 
 **This demonstrates how Docker volumes provide persistent storage beyond the lifecycle of containers.**
 
-📸 **Screenshot 7: Previously saved profile after container recreation**
 
-![Persistent storage screenshot](screenshots/persistent-storage.png)
-
-*Replace with a screenshot showing the previously saved profile after recreating the containers.*
 
 ## 🎥 Practical Demonstration Video
 
 The video below demonstrates the complete practical workflow, from running the application locally to containerising it with Docker Compose and testing persistent storage.
 
-**Video:** [Insert your video link here]
+
 
 ## 🧠 Key Takeaways
+
+
 
 This practical helped me understand that:
 
