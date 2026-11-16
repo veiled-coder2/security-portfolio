@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f6f5f2" />
+  <meta name="description" content="A calm, beautiful space to organise your people." />
+  <title>People — Profile Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="/">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span>form<span class="brand-light">space</span></span>
+      </a>
+
+      <div class="workspace-label">WORKSPACE</div>
+      <nav class="side-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="#people"><span class="nav-icon">◫</span> People <span class="nav-count" id="navCount">0</span></a>
+        <a class="nav-link muted-link" href="#overview"><span class="nav-icon">⌁</span> Overview</a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="help-card">
+          <div class="help-spark">✳</div>
+          <p class="help-title">A little space<br>for your people.</p>
+          <p class="help-copy">Keep the details that make every connection feel personal.</p>
+        </div>
+        <div class="account-row">
+          <div class="account-avatar">FS</div>
+          <div><strong>Workspace</strong><small>Personal space</small></div>
+          <span class="more">···</span>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content" id="people">
+      <header class="topbar">
+        <div class="breadcrumbs"><span>Workspace</span><span class="crumb-slash">/</span><strong>People</strong></div>
+        <div class="topbar-right"><span class="live-dot"></span><span>All changes saved</span><div class="top-avatar">Y</div></div>
+      </header>
+
+      <section class="page-intro">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> YOUR DIRECTORY</div>
+          <h1>People<span class="heading-period">.</span></h1>
+          <p class="intro-copy">A thoughtful place to keep everyone in the picture.</p>
+        </div>
+        <button class="primary-button" id="addProfileBtn"><span class="plus">＋</span> Add a person</button>
+      </section>
+
+      <section class="summary-grid" aria-label="Directory summary">
+        <article class="summary-card total-card">
+          <div class="summary-top"><span class="summary-label">TOTAL PEOPLE</span><span class="summary-icon lavender">♧</span></div>
+          <div class="summary-number" id="totalCount">—</div>
+          <div class="summary-foot">Profiles in your space</div>
+        </article>
+        <article class="summary-card">
+          <div class="summary-top"><span class="summary-label">RECENTLY ADDED</span><span class="summary-icon peach">✳</span></div>
+          <div class="summary-number" id="recentCount">—</div>
+          <div class="summary-foot">Added in the last 7 days</div>
+        </article>
+        <article class="summary-card">
+          <div class="summary-top"><span class="summary-label">LOCATIONS</span><span class="summary-icon mint">⌖</span></div>
+          <div class="summary-number" id="locationCount">—</div>
+          <div class="summary-foot">Unique places represented</div>
+        </article>
+      </section>
+
+      <section class="directory-section">
+        <div class="directory-heading">
+          <div><h2>Your people <span class="subtle-count" id="sectionCount">0</span></h2><p>Everyone, all in one place.</p></div>
+          <div class="directory-actions">
+            <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search people..." aria-label="Search people"></label>
+            <button class="filter-button" id="sortButton" title="Toggle sort order"><span>↕</span> Newest</button>
+          </div>
+        </div>
+
+        <div class="people-grid" id="peopleGrid">
+          <div class="loading-state"><div class="loader"></div><span>Making room for your people...</span></div>
+        </div>
+      </section>
+
+      <footer class="page-footer"><span>MADE FOR THE PEOPLE WHO MATTER.</span><span>FORMSPACE <i>✳</i> 2026</span></footer>
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <section class="profile-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-top">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> PROFILE DETAILS</div><h2 id="modalTitle">Add a person<span class="heading-period">.</span></h2><p>Good connections start with the little details.</p></div>
+        <button class="close-button" id="closeModal" aria-label="Close dialog">×</button>
+      </div>
+      <form id="profileForm">
+        <div class="form-grid">
+          <label class="field full-field"><span>FULL NAME <b>*</b></span><input name="name" required maxlength="60" placeholder="e.g. Amara Okafor"></label>
+          <label class="field"><span>ROLE / TITLE</span><input name="role" maxlength="80" placeholder="e.g. Product Designer"></label>
+          <label class="field"><span>EMAIL ADDRESS <b>*</b></span><input name="email" type="email" required maxlength="120" placeholder="amara@example.com"></label>
+          <label class="field full-field"><span>LOCATION</span><input name="location" maxlength="80" placeholder="e.g. Lagos, Nigeria"></label>
+          <label class="field full-field"><span>A LITTLE ABOUT THEM</span><textarea name="bio" rows="3" maxlength="240" placeholder="A few words worth remembering..."></textarea><small class="field-hint">Up to 240 characters.</small></label>
+          <div class="field full-field"><span>PROFILE COLOUR</span><div class="colour-options">
+            <label><input type="radio" name="avatarColor" value="violet" checked><i class="swatch violet-swatch"></i></label>
+            <label><input type="radio" name="avatarColor" value="blue"><i class="swatch blue-swatch"></i></label>
+            <label><input type="radio" name="avatarColor" value="peach"><i class="swatch peach-swatch"></i></label>
+            <label><input type="radio" name="avatarColor" value="green"><i class="swatch green-swatch"></i></label>
+            <label><input type="radio" name="avatarColor" value="rose"><i class="swatch rose-swatch"></i></label>
+          </div></div>
+        </div>
+        <div class="modal-actions"><button type="button" class="cancel-button" id="cancelModal">Cancel</button><button type="submit" class="primary-button" id="saveButton">Save profile <span>↗</span></button></div>
+      </form>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
