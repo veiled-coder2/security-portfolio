@@ -1,6 +1,6 @@
 
 
-# 🔐 Cloud & Application Security Portfolio
+# 🔐 Cloud Security Portfolio
 
 ✨ Building secure systems — one layer at a time. ✨  
 
@@ -12,7 +12,7 @@ After working on responsive web applications and API integrations, I developed a
 This repository documents my **hands-on labs, experiments, and security learning journey**, including:
 
 - 🔎 Vulnerability assessment practice (Greenbone / Kali Linux)
-- ☁️ Cloud security fundamentals (AWS)
+- ☁️ Cloud security  (AWS & GCP)
 - 🔐 API security concepts (authentication, authorization, rate limiting)
 - ⚙️ DevSecOps basics and secure deployment workflows
 - 🧠 Troubleshooting infrastructure and system-level issues
