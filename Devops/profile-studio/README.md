@@ -117,6 +117,7 @@ This takes advantage of Docker layer caching.
 If application source code changes but the package files remain unchanged, Docker can reuse the cached dependency installation layer instead of installing the dependencies again.
 
 📸 **Screenshot 2: Dockerfile**
+
 <img width="461" height="347" alt="dockerfile" src="https://github.com/user-attachments/assets/6c4eecf7-3aa8-44a0-a186-a085c66e70fa" />
 
 
@@ -227,9 +228,8 @@ docker compose ps
 
 📸 **Screenshot 5: Running Docker Compose containers**
 
-![Docker containers screenshot](screenshots/compose-containers.png)
+<img width="1119" height="87" alt="Screenshot 2026-11-16 173941" src="https://github.com/user-attachments/assets/e3b73465-06ea-4bf5-963b-a99324514bfd" />
 
-*Replace with a screenshot showing both backend and MongoDB containers running.*
 
 ## 6️⃣ Testing the Containerised Application
 
@@ -242,6 +242,7 @@ http://localhost:3000
 The browser still uses the same host address, but the backend is now running inside its Docker container and communicating with MongoDB over the Compose network.
 
 
+<img width="1346" height="668" alt="app running" src="https://github.com/user-attachments/assets/4f180044-af72-4a7f-bd9e-fc7dbf42df74" />
 
 ## 7️⃣ 💾 Demonstrating Persistent Storage
 
@@ -273,6 +274,8 @@ To test persistence, I:
 
 The profile was still available!
 
+<img width="1351" height="666" alt="persistence" src="https://github.com/user-attachments/assets/963c88a8-00f7-4b33-a3e3-7013e7c19344" />
+
 ### Why did the data survive?
 
 Docker containers have writable layers that are tied to individual containers. When a container is removed, its writable layer is removed too.
@@ -289,7 +292,7 @@ Since the MongoDB volume was mounted at `/data/db`, the database files remained 
 
 The video below demonstrates the complete practical workflow, from running the application locally to containerising it with Docker Compose and testing persistent storage.
 
-
+https://youtu.be/dkZv-28wK1s
 
 ## 🧠 Key Takeaways
 
