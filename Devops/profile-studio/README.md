@@ -292,7 +292,7 @@ Since the MongoDB volume was mounted at `/data/db`, the database files remained 
 
 The video below demonstrates the complete practical workflow, from running the application locally to containerising it with Docker Compose and testing persistent storage.
 
-https://youtu.be/dkZv-28wK1s
+https://youtu.be/u0CG5TcZtHI
 
 ## 🧠 Key Takeaways
 
